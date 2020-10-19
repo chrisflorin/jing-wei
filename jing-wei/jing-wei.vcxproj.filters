@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\chess">
+      <UniqueIdentifier>{280bea1a-7275-409c-99b4-f12c1d2b9045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\board">
+      <UniqueIdentifier>{69199cb9-6163-4c1e-a0c3-0c8a981377cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess">
+      <UniqueIdentifier>{1938eaa4-0c11-4376-931e-d333e46fefc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\board">
+      <UniqueIdentifier>{f074cac9-9e32-481c-9e16-17be982d57ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\comm">
+      <UniqueIdentifier>{05dbfded-84f3-4d95-bee4-7b3ec360fb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\comm">
+      <UniqueIdentifier>{7081d629-b4a0-4e7e-bec9-2a074bb70067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\engine">
+      <UniqueIdentifier>{e73ae2f9-2b83-4f79-b5f8-c11071187ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\eval">
+      <UniqueIdentifier>{f3d9805f-e402-4b4a-bd64-4888f9355620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\eval">
+      <UniqueIdentifier>{a95e1906-4210-4d51-bf18-9aaec41b9f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\player">
+      <UniqueIdentifier>{39d5e8ab-0199-4cab-b5a6-fc3fa8ef7fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\player">
+      <UniqueIdentifier>{03afd71a-fed5-4878-876b-f14a5d8ebd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\search">
+      <UniqueIdentifier>{c98c4b8f-9583-47d0-ac45-94c12c3d232c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\search">
+      <UniqueIdentifier>{b118eb96-7ae0-4c19-8da1-2a59d729c0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\types">
+      <UniqueIdentifier>{414c716e-8df7-4689-86c4-95368debe996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\types">
+      <UniqueIdentifier>{8eb01503-4775-44e5-9695-f4a7b5ab91e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{877038f6-8dd6-4251-82f3-1280cf238c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{c8775a81-03d4-43a8-99ba-c118968c427a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\board">
+      <UniqueIdentifier>{19125d30-d8bc-4ce8-b27f-4663d6746902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\clock">
+      <UniqueIdentifier>{0df33a07-973b-4ac0-af01-9de245d2f36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\clock">
+      <UniqueIdentifier>{4cfe4061-16e8-484d-abef-81a7c1df9d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\comm">
+      <UniqueIdentifier>{9dfee9c6-fac4-4dc4-8ce0-525b1ed40479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\engine">
+      <UniqueIdentifier>{d93314ab-ec1b-4eb0-a19c-a074a971b2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\eval">
+      <UniqueIdentifier>{2ece7d5a-cc83-4878-98cb-de98a51730a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\personality">
+      <UniqueIdentifier>{673151e6-15ee-4dad-970a-4483e0b89411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\personality">
+      <UniqueIdentifier>{cc3fb2c6-fb91-4438-8d34-a6ca6674c6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\player">
+      <UniqueIdentifier>{8e1d2a4e-2c3e-4313-a79b-e6afcdeb79cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\search">
+      <UniqueIdentifier>{820d4186-3b2f-4f39-be48-2d3ab2ab06fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\search">
+      <UniqueIdentifier>{ec576c16-2707-418a-94cc-d4cb9c856ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\types">
+      <UniqueIdentifier>{1150fda8-2515-48dd-881f-885f379c28ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\hash">
+      <UniqueIdentifier>{f6369c64-c240-4914-abdf-90874f8d8ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\hash">
+      <UniqueIdentifier>{053ce5e1-4172-435a-aabb-cd5a0ad77d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{2b477b33-d2ea-4333-8d0d-0ada8fc0b6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\endgame">
+      <UniqueIdentifier>{af22d184-4137-43c0-a67f-4a94878eef34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\endgame">
+      <UniqueIdentifier>{7d73aa0a-044c-4cfa-b737-8749a95ced63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chess\endgame">
+      <UniqueIdentifier>{441e29c9-a2b0-4887-9c21-c1e11247f3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chess\endgame\eval">
+      <UniqueIdentifier>{b177b239-8d24-455f-a8ce-83b4834c4ab9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\board\attack.cpp">
+      <Filter>Source Files\chess\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\board\board.cpp">
+      <Filter>Source Files\chess\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\board\movegen.cpp">
+      <Filter>Source Files\chess\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\board\moves.cpp">
+      <Filter>Source Files\chess\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\comm\xboard.cpp">
+      <Filter>Source Files\chess\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\eval\constructor.cpp">
+      <Filter>Source Files\chess\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\eval\evaluator.cpp">
+      <Filter>Source Files\chess\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\eval\parameters.cpp">
+      <Filter>Source Files\chess\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\player\player.cpp">
+      <Filter>Source Files\chess\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\search\chesspv.cpp">
+      <Filter>Source Files\chess\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\search\movehistory.cpp">
+      <Filter>Source Files\chess\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\search\searcher.cpp">
+      <Filter>Source Files\chess\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\types\square.cpp">
+      <Filter>Source Files\chess\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\game\clock\clock.cpp">
+      <Filter>Source Files\game\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\game\personality\personality.cpp">
+      <Filter>Source Files\game\personality</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\game\search\hashtable.cpp">
+      <Filter>Source Files\game\search</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\hash\hash.cpp">
+      <Filter>Source Files\chess\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\eval\pawnevaluator.cpp">
+      <Filter>Source Files\chess\eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chess\endgame\endgame.cpp">
+      <Filter>Source Files\chess\endgame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\chess\board\attack.h">
+      <Filter>Header Files\chess\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\board\board.h">
+      <Filter>Header Files\chess\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\board\movegen.h">
+      <Filter>Header Files\chess\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\board\moves.h">
+      <Filter>Header Files\chess\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\comm\xboard.h">
+      <Filter>Header Files\chess\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\engine\chessengine.h">
+      <Filter>Header Files\chess\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\eval\constructor.h">
+      <Filter>Header Files\chess\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\eval\evaluator.h">
+      <Filter>Header Files\chess\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\eval\parameters.h">
+      <Filter>Header Files\chess\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\player\player.h">
+      <Filter>Header Files\chess\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\search\butterfly.h">
+      <Filter>Header Files\chess\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\search\chesspv.h">
+      <Filter>Header Files\chess\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\search\movehistory.h">
+      <Filter>Header Files\chess\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\search\searcher.h">
+      <Filter>Header Files\chess\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\bitboard.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\castlerights.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\move.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\nodetype.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\piece.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\score.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\search.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\types\square.h">
+      <Filter>Header Files\chess\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\board\board.h">
+      <Filter>Header Files\game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\board\movegen.h">
+      <Filter>Header Files\game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\clock\clock.h">
+      <Filter>Header Files\game\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\comm\comm.h">
+      <Filter>Header Files\game\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\engine\engine.h">
+      <Filter>Header Files\game\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\eval\evaluator.h">
+      <Filter>Header Files\game\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\personality\parametermap.h">
+      <Filter>Header Files\game\personality</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\personality\personality.h">
+      <Filter>Header Files\game\personality</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\player\player.h">
+      <Filter>Header Files\game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\search\butterfly.h">
+      <Filter>Header Files\game\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\search\hashtable.h">
+      <Filter>Header Files\game\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\search\movehistory.h">
+      <Filter>Header Files\game\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\search\pv.h">
+      <Filter>Header Files\game\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\search\searcher.h">
+      <Filter>Header Files\game\search</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\depth.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\hash.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\movelist.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\nodecount.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\result.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\score.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\hash\hash.h">
+      <Filter>Header Files\chess\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\eval\pawnevaluator.h">
+      <Filter>Header Files\chess\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\types\bitboard.h">
+      <Filter>Header Files\game\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\bitreset.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\bitscan.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\popcount.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\random.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\shift.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\sort.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\endgame\endgame.h">
+      <Filter>Header Files\game\endgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\endgame.h">
+      <Filter>Header Files\chess\endgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\function.h">
+      <Filter>Header Files\chess\endgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\kk.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\kxk.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\kxkx.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\kqxkx.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\krxkr.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\chess\endgame\eval\kxxk.h">
+      <Filter>Header Files\chess\endgame\eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\game\math\byteswap.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
